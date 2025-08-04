@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tuka Trucks - Transport Service</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="/assets/images/1.png" alt="Tuka Logo" />
+    <h2 id="site-title">Tuka Truck Service</h2>
+    <p>Owned by Asghar Ali (0300-8653821) & Afsar Ali (0301-4800182)</p>
+    <nav>
+      <button onclick="showSection('home')">Home</button>
+      <button onclick="showSection('products')">Tuka Items</button>
+      <button onclick="window.open('https://wa.me/923008653820', '_blank')">WhatsApp</button>
+      <button onclick="toggleLanguage()">اردو / English</button>
+    </nav>
+  </header> 
+
+  <section id="home" class="section visible">
+    <h2>Welcome to Tuka Truck Service</h2>
+    <p>We transport all types of Tuka material across Punjab at reasonable rates.</p>
+  </section>
+
+  <section id="products" class="section hidden">
+    <h2>Tuka Items Available</h2>
+    <ul class="product-list">
+      <li><strong>tuka</strong> - Available </li>
+      <li><strong>Bura</strong> - Availabl</li>
+      <li><strong>Turee</strong> - Available</li>
+      <li><strong>Lal Tuka</strong> - Available</li>
+    </ul>
+    <div class="gallery">
+      <img src="download.jpg" alt="tuka"/>
+      <img src="/download (11).jpg" alt="Bura"/>
+      <img src="/images.jpg" alt="Turee"/>
+      <img src="/Screenshot 2025-08-04 103331.png" alt="Lal Tuka"/>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
